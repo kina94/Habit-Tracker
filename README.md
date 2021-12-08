@@ -1,8 +1,7 @@
 # Habit Tracker
-### Description
 React Mini Project - Habit Tracker with React📕✍
 
-### Concepts
+## Concepts
 * JSX
 * State
 * Prop
