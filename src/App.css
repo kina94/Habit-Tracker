@@ -41,3 +41,36 @@ button{
 .habit-delete{
   color:darkred;
 }
+
+nav{
+  padding:30px;
+  margin-right:0.5em;
+  background-color:sandybrown;
+  color:white;
+  font:48px bold;
+}
+
+.navbar-count{
+  background-color: green;
+}
+
+.fa-leaf{
+  color:green;
+  margin-right:0.2em;
+}
+
+.add-habbit{
+  margin:20px;
+  width:500px;
+  height:50px;
+  font-size:34px;
+}
+
+.add-button{
+  margin:0 auto;
+  height:60px;
+  width:100px;
+  background-color: green;
+  font: 24px bold;
+  color:white;
+}
