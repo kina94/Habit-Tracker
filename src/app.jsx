@@ -33,6 +33,12 @@ class App extends Component {
     this.setState({ habits });
   };
 
+  handleAdd = () =>{
+    const newHabit = {
+      
+    }
+  }
+
   render() {
     return (
       <>
