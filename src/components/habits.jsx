@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Habit from './habit'
+import Add from './add'
 
 class Habits extends Component {
     handleIncrement = (habit) => {
@@ -14,17 +15,25 @@ class Habits extends Component {
         this.props.onDelete(habit);
     };
 
+    handleAdd = name=>{
+        this.props.onAdd(name);
+    }
+
     render() {
         return (
+            <>
+            <Add onAdd={this.handleAdd}></Add>
             <ul>
                 {this.props.habits.map(habit => (
                     <Habit key={habit.id} habit={habit}
                         onIncrement={this.handleIncrement}
                         onDecrement={this.handleDecrement}
                         onDelete={this.handleDelete}
+                        onAdd={this.handleAdd}
                     />
                 ))}
             </ul>
+            </>
         );
     }
 }
