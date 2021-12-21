@@ -6,12 +6,9 @@ React Practice - Habit Tracker with React📕✍
 * State
 * Prop
 * Class Component
-* Pure Component
 * Lifecycle methods
 * Synthetic Events
 * Function Component
-* memo
-* React Hook
 
 ## Concepts
 Input your Habits and count and reset</br>
