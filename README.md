@@ -9,11 +9,3 @@ React Practice - Habit Tracker with React📕✍
 * Lifecycle methods
 * Synthetic Events
 * Function Component
-
-## Concepts
-Input your Habits and count and reset</br>
-https://kina-habit-tracker.netlify.app/
-
-![image](https://user-images.githubusercontent.com/66938939/146955858-18219fa5-1f53-4187-8ddb-c6393bc5b535.png)
-
-
